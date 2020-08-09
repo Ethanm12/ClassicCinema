@@ -1,7 +1,7 @@
 <?php
     session_start();
 // Generate the response to the form submission
-    $conn = new mysqli('sapphire', 'jmcmullan', 'Jaydin11', 'jmcmullan_dev');
+    $conn = new mysqli('sapphire', 'emorgan', 'Ethan1', 'emorgan_dev');
     if ($conn->connect_errno) {
         echo "failed connection\n";
 // Something went wrong connecting
